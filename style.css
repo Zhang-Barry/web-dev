@@ -4,7 +4,22 @@
 * {
     font-family: 'Montserrat', sans-serif;
 }
+p{
+    font-size: 16px;
+}
+
+h1{
+    font-size: 32px;
+}
+a:visited{
+    color: forestgreen;
+    text-decoration: #e9dd6e;    
+}
+a:hover{
+    color: yellow
+}
 body{
     /* background-color: #ffb54d; */
     background-color: #a5e5fa;   
 }
+
