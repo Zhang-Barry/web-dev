@@ -11,15 +11,103 @@ p{
 h1{
     font-size: 32px;
 }
+
+a:link{
+    color: #FFB54D
+}
+
 a:visited{
     color: forestgreen;
-    text-decoration: #e9dd6e;    
+    /* text-decoration: #e9dd6e;     */
 }
 a:hover{
     color: yellow
 }
+
+a:active{
+    color:darkblue;
+}
 body{
-    /* background-color: #ffb54d; */
     background-color: #a5e5fa;   
+    /* background-color: #ffb54d;    */
+    margin: 50px;
 }
 
+.spacer{
+    height: 50px;
+}
+
+.container{
+    width: 100%;
+}
+
+#myNav{
+    margin-left: 25px;
+    margin-right:25px;
+    padding: 0;
+}
+
+/* #myFooter{
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+} */
+
+footer{
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+}
+
+.aboutMe{
+    margin-top: 50px;
+    width:100%;
+}
+
+.aboutMe .descript{
+    width: 70%;
+    float: left;
+    padding: 25px;
+}
+
+.aboutMe .headshot{
+    width: 15%;
+    float: left;
+    padding: 25px;
+}
+
+.foodie .picture{
+    width: 25%;
+    float: left;
+    padding: 25px;
+}
+
+.foodie .descript{
+    width: 65%;
+    float: right;
+    padding: 25px;
+}
+
+img{
+    box-shadow: 2px;
+    border-radius: 5px;
+}
+
+.center{
+    justify-content: center;
+}
+
+svg {
+	display: block;
+	margin: 50px auto;
+    width: 25%;
+    height: 25%;
+}
+  
+.checkerboard rect:hover {
+    opacity : 0.8;
+}
+
+.checkerboard rec:active{
+    transform: scale(1.1s);
+}
