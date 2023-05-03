@@ -1,0 +1,170 @@
+/* Navbar styling */
+.navbar {
+  background-color: #fffbeb;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-menu li {
+  margin-right: 15px;
+}
+
+.navbar-menu li a {
+  color: #333;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar-menu li a:hover {
+  color: #555;
+}
+
+body{
+    background-color: #fffbeb;   
+    /* background-color: #ffb54d;    */
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 50px;
+
+}
+.about-me{
+    padding-top: 100px;
+}
+/* Footer styling */
+/* .footer {
+    background-color: #f8cba6;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  } */
+  
+footer{
+    /* position: absolute; */
+    bottom: 1px;
+    width: 100%;
+    background-color: #f8cba6;
+
+
+}
+.footer-sections {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+  
+.footer-sections ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+.footer-sections li {
+margin-right: 15px;
+}
+
+.footer-sections li a {
+color: #fff;
+text-decoration: none;
+}
+
+/* 
+  .list-container {
+    display: grid;
+    grid-template-columns: repeat(6, 2fr);
+    grid-gap: 2px; 
+    justify-content: center;
+  }
+
+  .list-item {
+    background-color: #fffbeb;
+    padding: 10px;
+    text-align: center;
+  } */
+
+.list-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+}
+
+.list-item {
+background-color: #f2f2f2;
+padding: 10px;
+text-align: center;
+}
+  
+
+ul{
+    list-style-type: none;
+}
+
+.project-container{
+    justify-content: center;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+width: 100%;
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+.form-group textarea {
+    height: 120px;
+}
+
+.form-group button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #45a049;
+}
+
+.project-section{
+    padding: 50px;
+}
+
+.spacer{
+    height: 50px;
+}

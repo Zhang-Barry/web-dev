@@ -1,0 +1,27 @@
+body{
+    background-color: #a5e5fa;   
+    /* background-color: #ffb54d;    */
+    margin: 50px;
+}
+
+
+.my-columns {
+    column-count: 4;
+    column-gap: 10px;
+  }
+
+.center{
+    justify-content: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.flex-item {
+flex: 1;
+text-align: center;
+}
+  
