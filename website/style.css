@@ -168,3 +168,11 @@ border-radius: 4px;
 .spacer{
     height: 50px;
 }
+
+.caption{
+  font-size: 14px;
+}
+
+.hidden{
+  display: none;
+}
